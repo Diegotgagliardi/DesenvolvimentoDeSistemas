@@ -1,23 +1,4 @@
-<form action="" method="GET">   
-    <label> Digite um numero: </label>
-    <input name="num" type="text">
-
-    <button type="submit">Enviar</button>
-</form>
-
-
 <?php
-
-    $raio = $_GET['num'];
-
-    echo "Qual o raio de um círculo" . "<br>";
-    $perimetro = 2*M_PI*$raio;
-    $circulo = M_PI*$raio*$raio;
-
-    echo "Perímetro é: " . number_format($perimetro, 2) . "<br>";
-    echo "Área é: " . number_format($circulo, 2);
-    echo "<br> Variaveis - raio:{$raio} - Area:{$circulo} perimetro:{$perimetro} -";
-
     echo "<h3> Funções Uteis </h3>";
     echo "Potencia: " . pow($raio, 4);
     echo "Modulo ABS: " . abs($raio); // |-4| e |4| => 4
